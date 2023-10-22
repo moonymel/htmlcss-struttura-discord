@@ -50,3 +50,16 @@
 .column-nav-2 li {
     display:inline;
 }
+
+.box-due-header {
+    width:100%;
+    background-color: blue;
+    padding:30px 0px;
+}
+
+.contenitore-header {
+    max-width:50%;
+    height:400px;
+    margin:0 auto;
+    background-color: pink;
+}
