@@ -187,3 +187,20 @@ main .content-tre-right {
 main .content-tre-left {
 
 }
+
+main .box-quattro {
+    width:100%;
+    background-color: lightgrey;
+    padding:30px 0px;
+}
+
+main .contenitore-quattro {
+    max-width:60%;
+    margin:0 auto;
+    height:400px;
+    background-color: green;
+}
+
+main .content-quattro {
+    
+}
