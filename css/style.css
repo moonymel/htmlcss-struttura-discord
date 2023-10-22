@@ -237,15 +237,15 @@ footer .box-uno .column-right {
     background-color: lightseagreen;
     text-align:center;
     height:400px;
+    display:flex;
     flex-direction: row;
 }
 
 footer .box-uno .mini-column {
-    width: calc(100% / 4 - 6px);
+    width: calc(100% / 4);
     border:1px dashed white;
     height:398px;
     flex-wrap: wrap;
-    display:inline-block; /* SBAGLIATOOOO DA RIVEDERE */
 }
 
 footer .box-due {
