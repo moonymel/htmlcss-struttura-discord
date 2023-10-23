@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* HEADER!!!!!!!  */
 header .box-uno {
     width:100%;
     background-color: aquamarine;
@@ -11,7 +12,7 @@ header .box-uno {
 }
 
 header .box-uno .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     background-color: gold;
 }
@@ -58,16 +59,27 @@ header .box-due {
 }
 
 header .box-due .contenitore {
-    max-width:50%;
+    max-width:991px;
     height:400px;
     margin:0 auto;
+}
+
+header .box-due .row {
+    width:100%;
+    display:flex;
+}
+
+header .box-due .column {
+    width:100%;
     background-color: pink;
+    height:400px;
 }
 
 header .box-due .content {
 
 }
 
+/* MAIN!!!!!!!!!! */
 main .box-uno {
     width:100%;
     background-color: white;
@@ -75,7 +87,7 @@ main .box-uno {
 }
 
 main .box-uno .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:400px;
 }
@@ -115,7 +127,7 @@ main .box-due {
 }
 
 main .box-due .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:400px;
 }
@@ -155,7 +167,7 @@ main .box-tre {
 }
 
 main .box-tre .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:400px;
 }
@@ -195,16 +207,28 @@ main .box-quattro {
 }
 
 main .box-quattro .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:400px;
     background-color: green;
+}
+
+main .box-quattro .row {
+    width:100%;
+    display:flex;
+}
+
+main .box-quattro .column {
+    width:100%;
+    background-color: green;
+    height:400px;
 }
 
 main .box-quattro .content {
 
 }
 
+/* FOOTER!!!!!!!!!!! */
 footer .box-uno {
     width:100%;
     background-color: dimgrey;
@@ -212,7 +236,7 @@ footer .box-uno {
 }
 
 footer .box-uno .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:400px;
 }
@@ -237,6 +261,10 @@ footer .box-uno .column-right {
     background-color: lightseagreen;
     text-align:center;
     height:400px;
+}
+
+footer .box-uno .right-row {
+    width:100%;
     display:flex;
     flex-direction: row;
 }
@@ -255,7 +283,7 @@ footer .box-due {
 }
 
 footer .box-due .contenitore {
-    max-width:60%;
+    max-width:1200px;
     margin:0 auto;
     height:80px;
     background-color: aquamarine;
